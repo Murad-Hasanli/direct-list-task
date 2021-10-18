@@ -1,0 +1,32 @@
+.navbar-logo {
+  -webkit-transform: translate(20px, 40px);
+          transform: translate(20px, 40px);
+}
+
+.navigation-clearfix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
+  margin-left: 20px;
+}
+
+a {
+  color: #262626;
+}
+
+button {
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 30px;
+  border-radius: 22px;
+  margin-left: 20px;
+  background-color: red;
+}
